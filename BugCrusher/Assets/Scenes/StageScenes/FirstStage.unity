@@ -368,6 +368,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 144604709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &528474396 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 184454472875519102, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+  m_PrefabInstance: {fileID: 6330087570455720866}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b757a9f3c38ae44b400d9259bf7dbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &558273785
 GameObject:
   m_ObjectHideFlags: 0
@@ -714,6 +725,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1310072593460527, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 102332994548035146, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.067
@@ -726,9 +741,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.066
       objectReference: {fileID: 0}
+    - target: {fileID: 415370991789487073, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 1281058903867347070, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_Colors.m_NormalColor.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1281058903867347070, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 528474396}
+    - target: {fileID: 1281058903867347070, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1281058903867347070, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -778,6 +805,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2581443657782782992, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_Color.a
+      value: 0.11764706
+      objectReference: {fileID: 0}
     - target: {fileID: 4642605099014672485, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_PlaneDistance
       value: 0.301
@@ -789,15 +820,19 @@ PrefabInstance:
     - target: {fileID: 5126502566205958535, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_text
       value: "\r\n\r\n\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u25A0\u25A0\u25A0\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u25A0\u25A0\u25A0\r\n\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\u3000\u3000\u3000\u25A0\r\n\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u25A0\u25A0\u3000\u3000\u25A0\u25A0\u25A0\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u3000\u25A0\u25A0\u25A0\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\u3000\u3000\u3000\u25A0\u25A0\u25A0\r\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u3000\u25A0\r\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u3000\u3000\u25A0\r\n\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u25A0\u25A0\u25A0\r\n\r\n\r\n\r\n\r\n\r\n
-        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\r\n
-        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\r\n
-        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u30B9\u30BF\u30FC\u30C8\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u30C1\u30E5\u30FC\u30C8\u30EA\u30A2\u30EB\u3000\u3000\u3000\u3000\u2502\r\n\u3000
-        \u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\r\n
-        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\r\n\r\n\r\n\r\n\r\n\r\nPS
+        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\r\n
+        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\r\n
+        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u30B9\u30BF\u30FC\u30C8\u3000\u3000\u3000\u3000\u3000\u2502\r\n\u3000
+        \u3000\u3000\u3000\u3000\u3000\u3000\u2502\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u2502\r\n
+        \u3000\u3000\u3000\u3000\u3000\u3000\u3000\uFF0B\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\uFF0B\r\n\r\n\r\n\r\n\r\n\r\nPS
         C:\\Users\\PC_User>"
       objectReference: {fileID: 0}
     - target: {fileID: 5126502566205958535, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_fontStyle
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126502566205958535, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5126502566205958535, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
@@ -812,13 +847,29 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6683917881437917496, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6841049554845649208, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6861809520142341973, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_text
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061348595529973006, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503832915941166239, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574557136992401697, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_Color.a
+      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 8011048652724637091, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
       propertyPath: m_stage
@@ -828,6 +879,10 @@ PrefabInstance:
       propertyPath: cubePrefab
       value: 
       objectReference: {fileID: 4572178690586800345, guid: 47a6dac7a5827b2409a7f7d4a818acc0, type: 3}
+    - target: {fileID: 8230284957833744998, guid: ddc929648a833b44db01b2ce6a3fd4c1, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -969,8 +1024,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 410087041}
   - {fileID: 144604708}
-  - {fileID: 558273788}
   - {fileID: 5464629913375178722}
   - {fileID: 6548707668615213216}
   - {fileID: 7719731732327201927}
   - {fileID: 6330087570455720866}
+  - {fileID: 558273788}

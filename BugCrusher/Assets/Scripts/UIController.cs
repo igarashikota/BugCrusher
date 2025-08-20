@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using System.Collections.Generic;
@@ -28,13 +27,13 @@ public class UIController : MonoBehaviour {
 
     private void Awake() {
         m_HPbar = GameObject.Find("HPbar").GetComponent<Slider>();
-        m_Console = GameObject.Find("Console").GetComponent<TextMeshProUGUI>();
+        //m_Console = GameObject.Find("Console").GetComponent<TextMeshProUGUI>();
         //m_PalameterController = GameObject.Find("StageSet/controller").gameObject.GetComponent<PalameterController>();
         m_HPdisplay = m_HPbar.transform.Find("HPDisplay").GetComponent<TextMeshProUGUI>();
     }
 
     private void Start() {
-        m_Console.text = "";
+        //m_Console.text = "";
     }
 
 
