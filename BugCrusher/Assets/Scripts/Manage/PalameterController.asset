@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f449e38e5ce7849b46a415412dd0b6, type: 3}
   m_Name: PalameterController
   m_EditorClassIdentifier: 
-  StartUpStageEventBase: {fileID: 4839137639160550423, guid: 26125f8869032f94bad1b53ef4ad2470, type: 3}
+  StartUpStageEventBase: {fileID: 3291813355501466626, guid: b1d06b4489d96a141a6ca2f877890c3a, type: 3}
   m_stageEventBaseList:
   - {fileID: 3291813355501466626, guid: b1d06b4489d96a141a6ca2f877890c3a, type: 3}
   - {fileID: 4839137639160550423, guid: 26125f8869032f94bad1b53ef4ad2470, type: 3}

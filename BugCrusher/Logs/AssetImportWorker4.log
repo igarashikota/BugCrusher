@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.1/staging' branch; Version is '6000.1.3f1 (f34db9734971) revision 15945145'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ja' Physical Memory: 32478 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-Date: 2025-08-23T05:37:48Z
+Date: 2025-08-23T08:12:17Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.1.3f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/PC_User/Desktop/Unity/お試し/BugCrusherGit/BugCrusher/BugCrusher
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-53098
+52969
 -job-worker-count
 11
 -background-job-worker-count
@@ -62,12 +62,12 @@ C:/Users/PC_User/Desktop/Unity/お試し/BugCrusherGit/BugCrusher/BugCrusher
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6408]  Target information:
+Player connection [18076]  Target information:
 
-Player connection [6408]  * "[IP] 192.168.11.58 [Port] 0 [Flags] 2 [Guid] 787087274 [EditorId] 787087274 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D6761R0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18076]  * "[IP] 192.168.11.58 [Port] 0 [Flags] 2 [Guid] 3845842219 [EditorId] 3845842219 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D6761R0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6408] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18076] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.1.3f1 (f34db9734971)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -95,24 +95,24 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.1.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001921 seconds.
-- Loaded All Assemblies, in  0.310 seconds
+Registered in 0.001662 seconds.
+- Loaded All Assemblies, in  0.320 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 317 ms
+Android Extension - Scanning For ADB Devices 304 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.711 seconds
-Domain Reload Profiling: 1020ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.652 seconds
+Domain Reload Profiling: 971ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -120,25 +120,25 @@ Domain Reload Profiling: 1020ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (108ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (118ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (125ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (126ms)
 				TypeCache.ScanAssembly (116ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (712ms)
+	FinalizeReload (652ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (676ms)
+		SetupLoadedEditorAssemblies (615ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (427ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			InitializePlatformSupportModulesInManaged (415ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,99 +147,561 @@ Domain Reload Profiling: 1020ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.610 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1179ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  0.554 seconds
+Domain Reload Profiling: 1176ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (139ms)
+			BuildScriptInfoCaches (47ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (554ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 226 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6807 unused Assets / (4.9 MB). Loaded Objects now: 7553.
+Memory consumption went from 188.2 MB to 183.3 MB.
+Total: 11.000500 ms (FindLiveObjects: 0.831600 ms CreateObjectMapping: 1.048600 ms MarkObjects: 5.591800 ms  DeleteObjects: 3.527000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 567498.212312 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0078891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.466245 seconds.
+  path: Assets/Scenes/TestStage2
+  artifactKey: Guid(ee32fbac0c5d18f43a794aa3ea3afff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestStage2 using Guid(ee32fbac0c5d18f43a794aa3ea3afff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9156c0c377d15e407820d241beb04550') in 0.0003897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.896357 seconds.
+  path: Assets/Scenes/TestStage2/NavMesh-testStage2.asset
+  artifactKey: Guid(5a7663fa04f1efc4c866767b20f19829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestStage2/NavMesh-testStage2.asset using Guid(5a7663fa04f1efc4c866767b20f19829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aafbc5cf9068acd6f1ed390e7b533ad4') in 0.0107251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.925788 seconds.
+  path: Assets/Scenes/NavMesh
+  artifactKey: Guid(ee32fbac0c5d18f43a794aa3ea3afff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NavMesh using Guid(ee32fbac0c5d18f43a794aa3ea3afff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a582d838eaff3de3c43ac1ecce2789cb') in 0.0003967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.109823 seconds.
+  path: Assets/Scenes/StageScenes
+  artifactKey: Guid(00952491d6a319343a20bf3dd37df4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes using Guid(00952491d6a319343a20bf3dd37df4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fb4f9279f4de807ace48b4a73f0d3fa') in 0.0004204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.432457 seconds.
+  path: Assets/Scenes/StageScenes/TestStage
+  artifactKey: Guid(9dfd878b0a169e347aac11fe555e13d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage using Guid(9dfd878b0a169e347aac11fe555e13d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dd3c0479749771c7a0bd5c10874cbff') in 0.0004567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061249 seconds.
+  path: Assets/Scenes/StageScenes/TestStage/NavMesh-FirstStage.asset
+  artifactKey: Guid(e97669cefa3c5954db70eb1cdf34d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage/NavMesh-FirstStage.asset using Guid(e97669cefa3c5954db70eb1cdf34d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6959efde0fff099e806bdf3d0d215d3d') in 0.0008138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.081714 seconds.
+  path: Assets/Scenes/StageScenes/Stage
+  artifactKey: Guid(b809245b971ffcd4a97b86464c750ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/Stage using Guid(b809245b971ffcd4a97b86464c750ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '918fb1deba18d5a15ee6a30a36a1aa8b') in 0.0004396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036479 seconds.
+  path: Assets/Scenes/StageScenes/Stage/NavMesh-FirstStage.asset
+  artifactKey: Guid(a778f9f40599d6748a0842b4cb2b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/Stage/NavMesh-FirstStage.asset using Guid(a778f9f40599d6748a0842b4cb2b43de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c4404324beb697bb4b8599aadaa78dd') in 0.0008394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.345414 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(9bf53494d34c0b54a8a7df8533e489f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(9bf53494d34c0b54a8a7df8533e489f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e592a8c0f75c2176be5b23b51c032b') in 0.0004521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013650 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-testStage.asset
+  artifactKey: Guid(33c25c00b2280da4086d43c4fe1f4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-testStage.asset using Guid(33c25c00b2280da4086d43c4fe1f4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6df443fedeb22c2f732c6c985d3ef0a') in 0.0008482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.037766 seconds.
+  path: Assets/Scenes/StageScenes/NavMesh/NavMesh-FirstStage 1.asset
+  artifactKey: Guid(e97669cefa3c5954db70eb1cdf34d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/NavMesh/NavMesh-FirstStage 1.asset using Guid(e97669cefa3c5954db70eb1cdf34d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68f58bdb8250e54a9019368f5a26a712') in 0.0008504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.219221 seconds.
+  path: Assets/Scenes/StageScenes/FirstStage.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/FirstStage.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9315b324af95025cfb7cf10dd809bb71') in 0.0005212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.935032 seconds.
+  path: Assets/Scenes/StageScenes/FirstStage
+  artifactKey: Guid(749cd1128afa2b24197de589a066cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/FirstStage using Guid(749cd1128afa2b24197de589a066cddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793abf835ce0a1d86e5eef24ae030d7a') in 0.0004174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032966 seconds.
+  path: Assets/Scenes/StageScenes/FirstStage/NavMesh-FirstStage.asset
+  artifactKey: Guid(a9147c7796e01c14ea373a9a63838c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/FirstStage/NavMesh-FirstStage.asset using Guid(a9147c7796e01c14ea373a9a63838c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '31f4cc0a33c73e1d0923339c3d296015') in 0.0008803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.553 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1100ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (409ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (259ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (133ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (574ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (548ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
+		SetupLoadedEditorAssemblies (417ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (270ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 226 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6807 unused Assets / (4.5 MB). Loaded Objects now: 7554.
-Memory consumption went from 184.6 MB to 180.1 MB.
-Total: 9.542700 ms (FindLiveObjects: 0.638400 ms CreateObjectMapping: 0.517500 ms MarkObjects: 5.414300 ms  DeleteObjects: 2.970600 ms)
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.0 MB). Loaded Objects now: 7574.
+Memory consumption went from 160.8 MB to 156.8 MB.
+Total: 8.483700 ms (FindLiveObjects: 1.122000 ms CreateObjectMapping: 0.321700 ms MarkObjects: 4.893400 ms  DeleteObjects: 2.145500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 558233.169490 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0039957 seconds
+  Time since last request: 36.345523 seconds.
+  path: Assets/Scenes/StageScenes/TestStage1.unity
+  artifactKey: Guid(5e25f9e6f8bd4d445be5371a8861c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage1.unity using Guid(5e25f9e6f8bd4d445be5371a8861c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4830485fe6870a6f7e8facddb429e280') in 0.0046081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.532 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 1008ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (3.6 MB). Loaded Objects now: 7579.
+Memory consumption went from 159.1 MB to 155.5 MB.
+Total: 8.321000 ms (FindLiveObjects: 0.906800 ms CreateObjectMapping: 0.438600 ms MarkObjects: 5.163600 ms  DeleteObjects: 1.807700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.530 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.496 seconds
+Domain Reload Profiling: 1025ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (251ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (126ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (383ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (3.6 MB). Loaded Objects now: 7584.
+Memory consumption went from 159.1 MB to 155.5 MB.
+Total: 8.328900 ms (FindLiveObjects: 0.980800 ms CreateObjectMapping: 0.271200 ms MarkObjects: 5.112100 ms  DeleteObjects: 1.962100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.563653 seconds.
+  path: Assets/Scenes/StageScenes/TestStage1_2.unity
+  artifactKey: Guid(cd7fb7f234ecade469925662e8f1606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage1_2.unity using Guid(cd7fb7f234ecade469925662e8f1606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385a2a90ef570883fedc32816329d25b') in 0.0087035 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.363900 seconds.
+  Time since last request: 11.291809 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2.unity
+  artifactKey: Guid(979f1c8448755344d9cca83e10812094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2.unity using Guid(979f1c8448755344d9cca83e10812094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baaeeb8946bc80d3e38fe86a07f541ac') in 0.0004682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.349859 seconds.
+  path: Assets/Scenes/StageScenes/NavMesh/TestStage2
+  artifactKey: Guid(11aa701ab44553f4a98336e409d92444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/NavMesh/TestStage2 using Guid(11aa701ab44553f4a98336e409d92444) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92c29ffe0f3d5f0e93c8a85571591137') in 0.000493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032263 seconds.
+  path: Assets/Scenes/StageScenes/NavMesh/TestStage2/NavMesh-testStage2.asset
+  artifactKey: Guid(24c8415ec0f9c3b40b7fae5657b519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/NavMesh/TestStage2/NavMesh-testStage2.asset using Guid(24c8415ec0f9c3b40b7fae5657b519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170e40a7a9f83aba006fe5e78d297dbd') in 0.0138546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.108429 seconds.
   path: Assets/Objects
   artifactKey: Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects using Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5985c2f1329372d0811cecc88c1ae7ad') in 0.0006072 seconds
+Start importing Assets/Objects using Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5985c2f1329372d0811cecc88c1ae7ad') in 0.0006213 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.567969 seconds.
-  path: Assets/Models
-  artifactKey: Guid(7c4c843d95bdf2c418901daa2a3bfb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(7c4c843d95bdf2c418901daa2a3bfb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef6913c2c3f88a84d6f217d549e38566') in 0.0004697 seconds
+  Time since last request: 1.125067 seconds.
+  path: Assets/Objects/Stage
+  artifactKey: Guid(5c274cc5af9e0444c98458ca0d8db58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Stage using Guid(5c274cc5af9e0444c98458ca0d8db58a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2de3487a536e0c003ea0bed7d086f598') in 0.0004376 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.463591 seconds.
-  path: Assets/Stage/Canvas
-  artifactKey: Guid(09a6273c5a89c8843b67ccae1ddb159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stage/Canvas using Guid(09a6273c5a89c8843b67ccae1ddb159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15fa9e8c46035d8460fadf92dd5f2e5c') in 0.0005372 seconds
+  Time since last request: 0.056954 seconds.
+  path: Assets/Objects/Stage/testStage2.prefab
+  artifactKey: Guid(e5c440815f4cb314d8930bd9e064eb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Stage/testStage2.prefab using Guid(e5c440815f4cb314d8930bd9e064eb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25b0c3b62d79f1ecddbaefdfe1887252') in 0.7663513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.078541 seconds.
+  path: Assets/Objects/Stage/New Folder
+  artifactKey: Guid(27ad66a50d21e734c98b98e1504db2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Stage/New Folder using Guid(27ad66a50d21e734c98b98e1504db2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4298df3ae798f29f8cb30bcfba1b83d2') in 0.0004452 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.229055 seconds.
+  Time since last request: 5.883266 seconds.
+  path: Assets/Objects/Stage/Stage
+  artifactKey: Guid(27ad66a50d21e734c98b98e1504db2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Stage/Stage using Guid(27ad66a50d21e734c98b98e1504db2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97211f3bf9fdbf5c1510e9e3b31eb7af') in 0.0004106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.915420 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(7bc6664486a9e5948a0f02bc10c952a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(7bc6664486a9e5948a0f02bc10c952a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f506d63af517e384833b1024acee494') in 0.0006995 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.678238 seconds.
   path: Assets/StageSet
   artifactKey: Guid(9520731afbef0a042996d621c6d94f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StageSet using Guid(9520731afbef0a042996d621c6d94f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43bcf1f71f57f9b59ae9ebad7916eb6c') in 0.0004989 seconds
+Start importing Assets/StageSet using Guid(9520731afbef0a042996d621c6d94f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43bcf1f71f57f9b59ae9ebad7916eb6c') in 0.0005852 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.065369 seconds.
+  Time since last request: 0.025959 seconds.
   path: Assets/StageSet/StageSet.prefab
   artifactKey: Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StageSet/StageSet.prefab using Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: 'e8d1d92cf24273253a8559dba185b2c1') in 0.1663672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.621190 seconds.
+  path: Assets/StageSet/Canvas
+  artifactKey: Guid(09a6273c5a89c8843b67ccae1ddb159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/Canvas using Guid(09a6273c5a89c8843b67ccae1ddb159e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15fa9e8c46035d8460fadf92dd5f2e5c') in 0.0004796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033102 seconds.
+  path: Assets/StageSet/Canvas/ClearCanvas.prefab
+  artifactKey: Guid(8f0fc64b44c47834ab23309613907335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/Canvas/ClearCanvas.prefab using Guid(8f0fc64b44c47834ab23309613907335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fabd7c157c00022abcea5dd43397d7a') in 0.008787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StageSet/Canvas/ShopCanvas.prefab
+  artifactKey: Guid(68a80a6905f70fd41b13069011de417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/Canvas/ShopCanvas.prefab using Guid(68a80a6905f70fd41b13069011de417b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6389415172dba1acc3e9179bd3ff357d') in 0.1122786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/StageSet/Canvas/TimeOverCanvas.prefab
+  artifactKey: Guid(7e8be5ebf87016c47b2f54b764ae123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/Canvas/TimeOverCanvas.prefab using Guid(7e8be5ebf87016c47b2f54b764ae123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '1ea6acfe5ea372a902a8fd2096caf3ea') in 0.115776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.294942 seconds.
+  path: Assets/StageSet/controller
+  artifactKey: Guid(76f5c1985773763418070a66a4f6ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/controller using Guid(76f5c1985773763418070a66a4f6ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f2f560dc3e2ead71c0162d828865dc6') in 0.0004836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013652 seconds.
+  path: Assets/StageSet/controller/Canvas.prefab
+  artifactKey: Guid(5087bf81047c98840be4ebcd2ca87f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/controller/Canvas.prefab using Guid(5087bf81047c98840be4ebcd2ca87f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -283,75 +745,67 @@ PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs
 
 (Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
 
- -> (artifact id: 'e8d1d92cf24273253a8559dba185b2c1') in 0.1885747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.784866 seconds.
-  path: Assets/controller
-  artifactKey: Guid(76f5c1985773763418070a66a4f6ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/controller using Guid(76f5c1985773763418070a66a4f6ba28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f2f560dc3e2ead71c0162d828865dc6') in 0.0004298 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039958 seconds.
-  path: Assets/controller/Canvas.prefab
-  artifactKey: Guid(5087bf81047c98840be4ebcd2ca87f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/controller/Canvas.prefab using Guid(5087bf81047c98840be4ebcd2ca87f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
-
-(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
-
-nextStageTestStage1
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
-
-(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
-
-stageEventProbability = 40100
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
-
-(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
-
-TimeLimit = 90
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
-
-(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
-
- -> (artifact id: '342d149c5791096ed947b09148a74264') in 0.1099489 seconds
+ -> (artifact id: '342d149c5791096ed947b09148a74264') in 0.1230935 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.743037 seconds.
-  path: Assets/Objects/Models/ワープボール.prefab
-  artifactKey: Guid(3756a40129dac7c4295b98de373079ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Models/ワープボール.prefab using Guid(3756a40129dac7c4295b98de373079ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+  Time since last request: 61.344516 seconds.
+  path: Assets/StageSet/controller/controller.prefab
+  artifactKey: Guid(7c473e7968b2d784bacb933f036d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/controller/controller.prefab using Guid(7c473e7968b2d784bacb933f036d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: 'd62e68039f1780bf2dd8d8bbeb814ad7') in 0.1343339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.258135 seconds.
+  path: Assets/StageSet/StageSet.prefab
+  artifactKey: Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/StageSet.prefab using Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
@@ -395,38 +849,1277 @@ PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs
 
 (Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
 
- -> (artifact id: 'e73e619303b7551694eec8745b54a8c7') in 0.735024 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+ -> (artifact id: 'f7120793b72e7c1d931a6a4f68e83216') in 0.1278626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.625111 seconds.
-  path: Assets/Objects/Models/Enemy
-  artifactKey: Guid(84cd798a754aa0240925acf3b621328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Models/Enemy using Guid(84cd798a754aa0240925acf3b621328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eb03ff976069776ddb83d5b2353bf36') in 0.0004374 seconds
+  Time since last request: 6.622600 seconds.
+  path: Assets/Scripts/StageEvent
+  artifactKey: Guid(b3636626ccf7503449f72c199f27e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent using Guid(b3636626ccf7503449f72c199f27e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94dd049ec9ba99e88139ba8f1ef705d3') in 0.0004997 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.053898 seconds.
+  Time since last request: 3.093368 seconds.
+  path: Assets/Scripts/Manage
+  artifactKey: Guid(c3b2675d21e195d488b72fa0c2d3e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manage using Guid(c3b2675d21e195d488b72fa0c2d3e987) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3721991e0e0990de0d609a02a6afe25') in 0.0004993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065142 seconds.
+  path: Assets/Scripts/Manage/PalameterController.asset
+  artifactKey: Guid(24f841859a678124c90caf13f9934fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manage/PalameterController.asset using Guid(24f841859a678124c90caf13f9934fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: 'f31dcbf57ca6458b64b827a427d7f4d5') in 0.0019185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.706200 seconds.
+  path: Assets/StageSet/controller/controller.prefab
+  artifactKey: Guid(7c473e7968b2d784bacb933f036d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/controller/controller.prefab using Guid(7c473e7968b2d784bacb933f036d447f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '733f950c4e5d58eebd6c3f2e8b1f1ddf') in 0.1265474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 268
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.565177 seconds.
+  path: Assets/Scripts/StageEvent/Stage/FirstStage.prefab
+  artifactKey: Guid(b1d06b4489d96a141a6ca2f877890c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent/Stage/FirstStage.prefab using Guid(b1d06b4489d96a141a6ca2f877890c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '41c481c3832fc5fddf5f5d3ed8546c84') in 0.0033316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scripts/StageEvent/Stage/TestStage2_2.prefab
+  artifactKey: Guid(152de9d17b004fb4bb39b7cd307747c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent/Stage/TestStage2_2.prefab using Guid(152de9d17b004fb4bb39b7cd307747c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '8a3abefef9595e08d877ca16336c7571') in 0.0023678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/StageEvent/Stage/TestStage1_2.prefab
+  artifactKey: Guid(18099d555557d2c4a8269d10ad98d103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent/Stage/TestStage1_2.prefab using Guid(18099d555557d2c4a8269d10ad98d103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '89a1501be51ab86c39fea323e56743f9') in 0.0023165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.241851 seconds.
+  path: Assets/Scripts/Manage/PalameterController.asset
+  artifactKey: Guid(24f841859a678124c90caf13f9934fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Manage/PalameterController.asset using Guid(24f841859a678124c90caf13f9934fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '5f0bf495c4e9410a9f816f3d2a3d6eb3') in 0.001812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.294257 seconds.
+  path: Assets/Objects/Models
+  artifactKey: Guid(7c4c843d95bdf2c418901daa2a3bfb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Models using Guid(7c4c843d95bdf2c418901daa2a3bfb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef6913c2c3f88a84d6f217d549e38566') in 0.0004917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014458 seconds.
+  path: Assets/Objects/Models/Enemy
+  artifactKey: Guid(84cd798a754aa0240925acf3b621328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Models/Enemy using Guid(84cd798a754aa0240925acf3b621328e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eb03ff976069776ddb83d5b2353bf36') in 0.0004927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027956 seconds.
   path: Assets/Objects/Models/Enemy/cube.fbx
   artifactKey: Guid(4bcfd0ea036cbea44925dbde00e2585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Models/Enemy/cube.fbx using Guid(4bcfd0ea036cbea44925dbde00e2585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ca4cdea86a682084849402199a9ac9') in 0.5362524 seconds
+Start importing Assets/Objects/Models/Enemy/cube.fbx using Guid(4bcfd0ea036cbea44925dbde00e2585f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ca4cdea86a682084849402199a9ac9') in 0.1932974 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.708223 seconds.
-  path: Assets/Objects/Models/Fox
-  artifactKey: Guid(600642b2dc4f2034f97208695622ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Models/Fox using Guid(600642b2dc4f2034f97208695622ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b5a4414806536c43cb33316ad793f3') in 0.0005417 seconds
+  Time since last request: 11.854729 seconds.
+  path: Assets/#DObjects
+  artifactKey: Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#DObjects using Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de3181bd685031b77777ef469324f86d') in 0.0004169 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.167382 seconds.
-  path: Assets/Objects/Models/FoxAnimater.controller
+  Time since last request: 5.530599 seconds.
+  path: Assets/3DObjects
+  artifactKey: Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects using Guid(e642dd6937ea7504388e771156bc9f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da2bd6faa111ab87f4fc301254e48f84') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.756071 seconds.
+  path: Assets/AddressableAssetsData
+  artifactKey: Guid(8869b825007ea2b4da460bb3c9eb2978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData using Guid(8869b825007ea2b4da460bb3c9eb2978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f42c34b6ad6d625156b0b4a957c91556') in 0.0004947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.550013 seconds.
+  path: Assets/AddressableAssetsData/AddressableAssetGroupSortSettings.asset
+  artifactKey: Guid(c52ed76920f94da46b9b6d45108f0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData/AddressableAssetGroupSortSettings.asset using Guid(c52ed76920f94da46b9b6d45108f0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a8f54c68bee27d80b65b87f62c8f3f0') in 0.0011764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AddressableAssetsData/ProfileDataSourceSettings.asset
+  artifactKey: Guid(2659fec3698860043a949b2e7785702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddressableAssetsData/ProfileDataSourceSettings.asset using Guid(2659fec3698860043a949b2e7785702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0394f29e6fb331277ce9d0d1a54ec97e') in 0.0020986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.164149 seconds.
+  path: Assets/StageSet/StageSet.prefab
+  artifactKey: Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/StageSet.prefab using Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage2_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: 'b6eeed59a1dd9913be479cc247d03d88') in 0.1362832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.469159 seconds.
+  path: Assets/Scenes/Title.unity
+  artifactKey: Guid(bfaaa0b3b602c3b4c9272468779c8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Title.unity using Guid(bfaaa0b3b602c3b4c9272468779c8325) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f733ba616c14378651a325045a805964') in 0.0006062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.243103 seconds.
+  path: Assets/Scenes/ConsoleShop.unity
+  artifactKey: Guid(9af27b0a7a6a8ff4c8d08254ac6a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ConsoleShop.unity using Guid(9af27b0a7a6a8ff4c8d08254ac6a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9010506566882c263c9cac652d17a3c8') in 0.0004729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.191085 seconds.
+  path: Assets/StageSet/Canvas/ConsoleShopCanvas.prefab
+  artifactKey: Guid(b21517861aff9c946ba155d78f77c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/Canvas/ConsoleShopCanvas.prefab using Guid(b21517861aff9c946ba155d78f77c4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ca5605274dfba0b0d9f6304f9fc3f0') in 0.1078702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.169580 seconds.
+  path: Assets/StageSet/StageSet.prefab
+  artifactKey: Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/StageSet.prefab using Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: 'aa0bd0e71223c3e815ba69dab97999e1') in 0.1375681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.001969 seconds.
+  path: Assets/3DObjects/Models/Fox
+  artifactKey: Guid(600642b2dc4f2034f97208695622ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Models/Fox using Guid(600642b2dc4f2034f97208695622ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b5a4414806536c43cb33316ad793f3') in 0.0004781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004822 seconds.
+  path: Assets/3DObjects/Models/Fox/ワープボール.prefab
+  artifactKey: Guid(3756a40129dac7c4295b98de373079ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Models/Fox/ワープボール.prefab using Guid(3756a40129dac7c4295b98de373079ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '2218c7ec4cb9628603fb0859aaf33bac') in 0.4059673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099427 seconds.
+  path: Assets/3DObjects/Models/Fox/FoxAnimater.controller
   artifactKey: Guid(7bd577f7540d1c644894c64ac9e7a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objects/Models/FoxAnimater.controller using Guid(7bd577f7540d1c644894c64ac9e7a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e796cdc6e3688dfd083e75d0a083160') in 0.0052974 seconds
+Start importing Assets/3DObjects/Models/Fox/FoxAnimater.controller using Guid(7bd577f7540d1c644894c64ac9e7a25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e796cdc6e3688dfd083e75d0a083160') in 0.0055053 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
 
+========================================================================
+Received Import Request.
+  Time since last request: 5.418083 seconds.
+  path: Assets/Scenes/StageScenes/FirstStage.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/FirstStage.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c53dd64fb631faad32dba5e57412340a') in 0.0005786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.578 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:DeleteAsset (string)
+AddressablesPlayerBuildProcessor:RemovePlayerBuildLinkXML (UnityEditor.AddressableAssets.Settings.AddressableAssetSettings) (at ./Library/PackageCache/com.unity.addressables@16eddacf275e/Editor/Build/AddressablesPlayerBuildProcessor.cs:47)
+AddressablesPlayerBuildProcessor:CleanTemporaryPlayerBuildData () (at ./Library/PackageCache/com.unity.addressables@16eddacf275e/Editor/Build/AddressablesPlayerBuildProcessor.cs:39)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.addressables@16eddacf275e/Editor/Build/AddressablesPlayerBuildProcessor.cs line 47]
+
+Asset Pipeline Refresh (id=92a765de252a5e24e89f1393f7c81af2): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.531 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (347ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (420ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6807 unused Assets / (3.6 MB). Loaded Objects now: 7675.
+Memory consumption went from 170.6 MB to 167.1 MB.
+Total: 9.171200 ms (FindLiveObjects: 1.052300 ms CreateObjectMapping: 0.799300 ms MarkObjects: 5.093000 ms  DeleteObjects: 2.224900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 521.739208 seconds.
+  path: Assets/StageSet/StageSet.prefab
+  artifactKey: Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StageSet/StageSet.prefab using Guid(ddc929648a833b44db01b2ce6a3fd4c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)5
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:605)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 605)
+
+nextStageTestStage1_2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:622)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 622)
+
+stageEventProbability = 40100
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:623)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 623)
+
+TimeLimit = 90
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PalameterController:OnEnable () (at Assets/Scripts/Manage/PalameterController.cs:624)
+
+(Filename: Assets/Scripts/Manage/PalameterController.cs Line: 624)
+
+ -> (artifact id: '3368eb00f9fda38f177981be1ef463a9') in 0.1849324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 344
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.067494 seconds.
+  path: Assets/Scenes/StageScenes/TestStage1.unity
+  artifactKey: Guid(5e25f9e6f8bd4d445be5371a8861c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage1.unity using Guid(5e25f9e6f8bd4d445be5371a8861c6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '405c7c0400940ba9443d5efa7cbbd609') in 0.0004876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.129919 seconds.
+  path: Assets/Scenes/StageScenes/TestStage1_2.unity
+  artifactKey: Guid(cd7fb7f234ecade469925662e8f1606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage1_2.unity using Guid(cd7fb7f234ecade469925662e8f1606e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14c96e32eea4db0a0a149efae36f84ee') in 0.0005012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619248 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2.unity
+  artifactKey: Guid(979f1c8448755344d9cca83e10812094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2.unity using Guid(979f1c8448755344d9cca83e10812094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933f69c9254d495a501f9a0f5ddad80a') in 0.0004681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.160771 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2_2.unity
+  artifactKey: Guid(cdbc51b9d78664d4e8bfbbea3f2b4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2_2.unity using Guid(cdbc51b9d78664d4e8bfbbea3f2b4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9b2f771890c8400c5b24188c8e5a349') in 0.0005883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.543 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (400ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6806 unused Assets / (3.8 MB). Loaded Objects now: 7680.
+Memory consumption went from 170.5 MB to 166.6 MB.
+Total: 9.611100 ms (FindLiveObjects: 0.965400 ms CreateObjectMapping: 0.325400 ms MarkObjects: 5.558900 ms  DeleteObjects: 2.759500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.524 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.543 seconds
+Domain Reload Profiling: 1067ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (254ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (544ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (418ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.8 MB). Loaded Objects now: 7685.
+Memory consumption went from 170.6 MB to 165.8 MB.
+Total: 9.996800 ms (FindLiveObjects: 1.319500 ms CreateObjectMapping: 0.574300 ms MarkObjects: 5.425100 ms  DeleteObjects: 2.676500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 474.674284 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2_2/NavMesh-testStage2.asset
+  artifactKey: Guid(b52ea123cdfce07479c68eb3c66bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2_2/NavMesh-testStage2.asset using Guid(b52ea123cdfce07479c68eb3c66bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b938d33e0d1e9afb63e820cbe3b8b73a') in 0.0220364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.403192 seconds.
+  path: Assets/3DObjects/Stage/Stage/NavMesh-testStage2 1.asset
+  artifactKey: Guid(b52ea123cdfce07479c68eb3c66bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Stage/Stage/NavMesh-testStage2 1.asset using Guid(b52ea123cdfce07479c68eb3c66bc7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '451c055f03e4d7d9ac17a8c4bc98dd6d') in 0.0009378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.766199 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2_2
+  artifactKey: Guid(033cdc8bf1ab7b74b9fda8ab97015f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2_2 using Guid(033cdc8bf1ab7b74b9fda8ab97015f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '749e613df35f35123fc756c6271e8dcf') in 0.0008187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031387 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2_2/NavMesh-testStage2.asset
+  artifactKey: Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2_2/NavMesh-testStage2.asset using Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cf4e2444df537fffab7b8daac191ef3') in 0.000983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.504403 seconds.
+  path: Assets/3DObjects/Stage/Stage/NavMesh-testStage2 1.asset
+  artifactKey: Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Stage/Stage/NavMesh-testStage2 1.asset using Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdea8d286064bb315607bb1d437e9404') in 0.0009047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.123230 seconds.
+  path: Assets/3DObjects/Stage/Stage/NavMesh-testStage2_2.asset
+  artifactKey: Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Stage/Stage/NavMesh-testStage2_2.asset using Guid(e1ba0455c75bcd844870b480ce115ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fdd95af2622fc9123b83b3e1f44517b') in 0.0008751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.482087 seconds.
+  path: Assets/3DObjects/Stage/Stage/NavMesh-testStage2_1.asset
+  artifactKey: Guid(24c8415ec0f9c3b40b7fae5657b519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DObjects/Stage/Stage/NavMesh-testStage2_1.asset using Guid(24c8415ec0f9c3b40b7fae5657b519bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ca2c13b7eb537c52c2e55d7fd2fb5c8') in 0.0009857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.794679 seconds.
+  path: Assets/Scenes/StageScenes/TestStage2_2.unity
+  artifactKey: Guid(cdbc51b9d78664d4e8bfbbea3f2b4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StageScenes/TestStage2_2.unity using Guid(cdbc51b9d78664d4e8bfbbea3f2b4084) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd75f44ed22495a93bf56c9b3184c1200') in 0.0005059 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1031.781719 seconds.
+  path: Assets/Scenes/ConsoleShop.unity
+  artifactKey: Guid(9af27b0a7a6a8ff4c8d08254ac6a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ConsoleShop.unity using Guid(9af27b0a7a6a8ff4c8d08254ac6a46a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '470689ea4e283efe85d09e5cc8fb571a') in 0.0008211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (4.3 MB). Loaded Objects now: 7685.
+Memory consumption went from 170.8 MB to 166.5 MB.
+Total: 14.879300 ms (FindLiveObjects: 1.505000 ms CreateObjectMapping: 0.581800 ms MarkObjects: 9.167300 ms  DeleteObjects: 3.623300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.547 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.544 seconds
+Domain Reload Profiling: 1091ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (336ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (117ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (544ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.7 MB). Loaded Objects now: 7690.
+Memory consumption went from 170.6 MB to 165.9 MB.
+Total: 8.946800 ms (FindLiveObjects: 1.121600 ms CreateObjectMapping: 0.518800 ms MarkObjects: 4.940500 ms  DeleteObjects: 2.363400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.524 seconds
+Domain Reload Profiling: 1066ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (121ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (524ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (413ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.7 MB). Loaded Objects now: 7695.
+Memory consumption went from 170.6 MB to 166.0 MB.
+Total: 10.165100 ms (FindLiveObjects: 0.649600 ms CreateObjectMapping: 0.452300 ms MarkObjects: 6.265000 ms  DeleteObjects: 2.796700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 183.655764 seconds.
+  path: Assets/Scripts/StageEvent/Stage/FirstStage.cs
+  artifactKey: Guid(751d05df0a9bf644c8091e172a4f623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent/Stage/FirstStage.cs using Guid(751d05df0a9bf644c8091e172a4f623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0d3800a0dafbc0dbd200d472053c244') in 0.0157275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (4.7 MB). Loaded Objects now: 7695.
+Memory consumption went from 170.8 MB to 166.1 MB.
+Total: 11.900400 ms (FindLiveObjects: 1.048700 ms CreateObjectMapping: 0.485900 ms MarkObjects: 6.281300 ms  DeleteObjects: 4.082800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.563 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.543 seconds
+Domain Reload Profiling: 1106ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (358ms)
+		LoadAssemblies (285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (122ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.2 MB). Loaded Objects now: 7700.
+Memory consumption went from 170.7 MB to 166.5 MB.
+Total: 11.742100 ms (FindLiveObjects: 1.076100 ms CreateObjectMapping: 0.636600 ms MarkObjects: 7.397800 ms  DeleteObjects: 2.630000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (4.4 MB). Loaded Objects now: 7700.
+Memory consumption went from 170.8 MB to 166.4 MB.
+Total: 11.231300 ms (FindLiveObjects: 1.235400 ms CreateObjectMapping: 0.555400 ms MarkObjects: 6.598900 ms  DeleteObjects: 2.839400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.527 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 1034ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (327ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (123ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (506ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (3.8 MB). Loaded Objects now: 7705.
+Memory consumption went from 170.6 MB to 166.8 MB.
+Total: 8.684000 ms (FindLiveObjects: 0.445900 ms CreateObjectMapping: 0.300800 ms MarkObjects: 5.924400 ms  DeleteObjects: 2.010700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.522 seconds
+Domain Reload Profiling: 1021ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (522ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (4.0 MB). Loaded Objects now: 7710.
+Memory consumption went from 170.7 MB to 166.8 MB.
+Total: 6.941800 ms (FindLiveObjects: 0.538200 ms CreateObjectMapping: 0.341700 ms MarkObjects: 4.005600 ms  DeleteObjects: 2.055100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6798 unused Assets / (4.2 MB). Loaded Objects now: 7710.
+Memory consumption went from 170.9 MB to 166.7 MB.
+Total: 12.777300 ms (FindLiveObjects: 0.728800 ms CreateObjectMapping: 0.483900 ms MarkObjects: 8.552300 ms  DeleteObjects: 3.010100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 819.870783 seconds.
+  path: Assets/Scripts/StageEvent/Stage/FirstStage.cs
+  artifactKey: Guid(751d05df0a9bf644c8091e172a4f623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StageEvent/Stage/FirstStage.cs using Guid(751d05df0a9bf644c8091e172a4f623f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c548249ad2b5a3e511981b054500bdd') in 0.0480406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.537 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 1143ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6805 unused Assets / (5.2 MB). Loaded Objects now: 7715.
+Memory consumption went from 170.8 MB to 165.6 MB.
+Total: 9.661500 ms (FindLiveObjects: 0.555600 ms CreateObjectMapping: 0.319200 ms MarkObjects: 5.896400 ms  DeleteObjects: 2.887200 ms)
+
+Prepare: number of updated asset objects reloaded= 0

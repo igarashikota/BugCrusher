@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|c:\\users\\pc_user\\desktop\\unity\\\u304A\u8A66\u3057\\bugcrushergit\\bugcrusher\\bugcrusher\\assets\\scripts\\palametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\palametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|c:\\users\\pc_user\\desktop\\unity\\\u304A\u8A66\u3057\\bugcrushergit\\bugcrusher\\bugcrusher\\assets\\scripts\\enemy\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\startcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\PalameterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PalameterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\enemy\\mothcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\mothcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemylifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\firststage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\firststage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\fox\\foxweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\foxweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,44 +31,68 @@
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\foxonstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\consolecontroller\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\consolecontroller\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stagecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagecreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\fox\\warpballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\warpballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\teststage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\teststage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\usualShopButtonDown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\usualShopButtonDown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\teststage1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\teststage1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\stageeventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\stageeventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\teststage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\teststage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\FirstStage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\FirstStage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\teststage2_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\teststage2_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\UIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UIController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\spwanbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\stageevent\\spwanbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\stageeventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\stageevent\\stageeventbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\ConsoleController\\ConsoleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ConsoleController\\ConsoleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\usualshopbuttondown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\stageevent\\usualshopbuttondown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\spwanbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\spwanbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\MothController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy\\MothController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\CubeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy\\CubeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\SceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageCreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageCreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\TestStage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\TestStage1_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\TestStage2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage2_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StageEvent\\TestStage2_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -103,19 +107,34 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CubeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
+              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAnwHAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:09:11.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PalameterController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\PalameterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PalameterController.cs",
               "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\PalameterController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PalameterController.cs",
-              "ViewState": "AgIAAGECAAAAAAAAAAAnwG0CAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:08:54.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T14:08:54.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FirstStage.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\FirstStage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\FirstStage.cs",
@@ -127,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "UIController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\UIController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIController.cs",
@@ -139,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyController.cs",
@@ -151,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "EnemyLifeController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\EnemyLifeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyLifeController.cs",
@@ -163,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "StartController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StartController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartController.cs",
@@ -174,12 +193,8 @@
               "WhenOpened": "2025-06-14T02:45:10.481Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FoxController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\FoxController.cs",
@@ -191,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "FoxWeaponController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxWeaponController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\FoxWeaponController.cs",
@@ -203,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "FoxOnStage.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxOnStage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\FoxOnStage.cs",
@@ -215,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ConsoleController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\ConsoleController\\ConsoleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ConsoleController\\ConsoleController.cs",
@@ -227,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "SpwanBox.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\SpwanBox.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\SpwanBox.cs",
@@ -239,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "MothController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\MothController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\MothController.cs",
@@ -251,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "CubeController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\CubeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\CubeController.cs",
@@ -263,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "SceneManager.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\SceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManager.cs",
@@ -275,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "StageCreator.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageCreator.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageCreator.cs",
@@ -287,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 9,
               "Title": "StageEventBase.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\StageEventBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\StageEventBase.cs",
@@ -299,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 8,
               "Title": "usualShopButtonDown.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\usualShopButtonDown.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\usualShopButtonDown.cs",
@@ -311,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
               "Title": "warpBallController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\warpBallController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\warpBallController.cs",
@@ -323,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "TestStage1.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\TestStage1.cs",
@@ -335,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "TestStage1_2.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage1_2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\TestStage1_2.cs",
@@ -347,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "TestStage2.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\TestStage2.cs",
@@ -359,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "TestStage2_2.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\TestStage2_2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\TestStage2_2.cs",

@@ -47,6 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cubePrefab: {fileID: 4572178690586800345, guid: 47a6dac7a5827b2409a7f7d4a818acc0, type: 3}
   mothPrefab: {fileID: 4972107098033211270, guid: db223437c3eb08e4ab41e22f65ff7226, type: 3}
+  m_stage: {fileID: 0}
   m_palameterController: {fileID: 11400000, guid: 24f841859a678124c90caf13f9934fd2, type: 2}
 --- !u!114 &5280782712655573349
 MonoBehaviour:
@@ -60,6 +61,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aad9e3c0983c1041836a9f67fa4b49d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_palametorController: {fileID: 11400000, guid: 24f841859a678124c90caf13f9934fd2, type: 2}
   m_ClearCanvas: {fileID: 2511139956140979156, guid: 8f0fc64b44c47834ab23309613907335, type: 3}
   m_ShopCanvas: {fileID: 1249744943670471775, guid: 68a80a6905f70fd41b13069011de417b, type: 3}
   m_GameoverCanvas: {fileID: 6824841719261800105, guid: 9dc2b07a8f5ad6b4fb504e7aa1396ec8, type: 3}
+  m_timeOverCanvas: {fileID: 278192934750185162, guid: 7e8be5ebf87016c47b2f54b764ae123c, type: 3}

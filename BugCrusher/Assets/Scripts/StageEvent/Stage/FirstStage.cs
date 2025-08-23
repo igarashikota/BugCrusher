@@ -28,15 +28,15 @@ public class FirstStage : StageEventBase {
     }
 
     public override int clearCoin {
-        get { return 500; }
+        get { return 999; }
     }
 
     public override string stageDisplayName {
-        get { return "　　　テストステージ１　　　"; }
+        get { return "　　ファーストステージ　　　"; }
     }
 
     public override string difficulty {
-        get { return "　　　　　普通　　　　　　　"; }
+        get { return "　　　　データなし　　　　　"; }
     }
 
     public override string rule {

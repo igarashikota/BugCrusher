@@ -746,7 +746,7 @@ PrefabInstance:
     - target: {fileID: -2770975864245937093, guid: e5c440815f4cb314d8930bd9e064eb8a, type: 3}
       propertyPath: m_NavMeshData
       value: 
-      objectReference: {fileID: 23800000, guid: cd4818bd2a5cce441ad07add0aaf16f9, type: 2}
+      objectReference: {fileID: 23800000, guid: e1ba0455c75bcd844870b480ce115ab4, type: 2}
     - target: {fileID: 3641662355169959727, guid: e5c440815f4cb314d8930bd9e064eb8a, type: 3}
       propertyPath: m_LocalScale.y
       value: 7

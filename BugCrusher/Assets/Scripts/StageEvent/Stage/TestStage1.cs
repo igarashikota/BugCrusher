@@ -17,7 +17,7 @@ public class TestStage1 : StageEventBase {
     }
 
     public override string stageName {
-        get { return "TestStage"; }
+        get { return "TestStage1"; }
     }
 
     public override int clearCoin {

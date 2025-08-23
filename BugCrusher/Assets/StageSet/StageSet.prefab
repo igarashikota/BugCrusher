@@ -636,9 +636,37 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -27.050049
+      objectReference: {fileID: 0}
+    - target: {fileID: 5399299147403620902, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6082702583940782230, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
       propertyPath: m_Name
       value: StartConsoleCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082702583940782230, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9221721646944605941, guid: a2532d3e566691c49ad849afa775e1c1, type: 3}
       propertyPath: m_Pivot.x
@@ -773,6 +801,10 @@ PrefabInstance:
     - target: {fileID: 5608387924908570265, guid: 5087bf81047c98840be4ebcd2ca87f3e, type: 3}
       propertyPath: m_UpdateRectTransformForStandalone
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945645137036472745, guid: 5087bf81047c98840be4ebcd2ca87f3e, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5965765879685249931, guid: 5087bf81047c98840be4ebcd2ca87f3e, type: 3}
       propertyPath: m_PresetInfoIsWorld
