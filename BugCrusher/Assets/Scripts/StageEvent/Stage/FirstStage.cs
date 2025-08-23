@@ -28,7 +28,7 @@ public class FirstStage : StageEventBase {
     }
 
     public override int clearCoin {
-        get { return 999; }
+        get { return 500; }
     }
 
     public override string stageDisplayName {
