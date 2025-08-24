@@ -5,3 +5,5 @@
 ・BugCrusher.exeファイル<br>
 　　ゲームの実行ファイルです。<br>
 <br>
+・狐.blend<br>
+　　操作キャラのblenderファイルです<br>
