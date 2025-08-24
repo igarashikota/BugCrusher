@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|c:\\users\\pc_user\\desktop\\unity\\\u304A\u8A66\u3057\\bugcrushergit\\bugcrusher\\bugcrusher\\assets\\scripts\\stageevent\\stage\\teststage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\stage\\teststage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|c:\\users\\pc_user\\desktop\\unity\\\u304A\u8A66\u3057\\bugcrushergit\\bugcrusher\\bugcrusher\\assets\\scripts\\stageevent\\consolecontroller\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\stageevent\\consolecontroller\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stageevent\\consolecontroller\\consolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|c:\\users\\pc_user\\desktop\\unity\\\u304A\u8A66\u3057\\bugcrushergit\\bugcrusher\\bugcrusher\\assets\\scripts\\enemy\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\enemy\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy\\cubecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\PalameterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PalameterController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fox\\foxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8628557A-C389-7DD2-AD03-F3AE3002F038}|Assembly-CSharp.csproj|C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\assets\\scripts\\enemy\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,41 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestStage1.cs",
-              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
-              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T09:14:28.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsoleController.cs",
-              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
-              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAADwv/AAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T09:13:37.158Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CubeController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
@@ -152,12 +122,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy\\CubeController.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAnwHAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T09:09:11.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T09:09:11.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PalameterController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\PalameterController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PalameterController.cs",
@@ -204,6 +173,48 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoxController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\FoxController.cs",
+              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fox\\FoxController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAewKEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:22:37.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleController.cs",
+              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
+              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StageEvent\\ConsoleController\\ConsoleController.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAADwv/AAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:13:37.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestStage1.cs",
+              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
+              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StageEvent\\Stage\\TestStage1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:14:28.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "EnemyLifeController.cs",
               "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Enemy\\EnemyLifeController.cs",
@@ -225,18 +236,6 @@
               "ViewState": "AgIAADcAAAAAAAAAAAAAwEMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T02:45:10.481Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FoxController.cs",
-              "DocumentMoniker": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Fox\\FoxController.cs",
-              "ToolTip": "C:\\Users\\PC_User\\Desktop\\Unity\\\u304A\u8A66\u3057\\BugCrusherGit\\BugCrusher\\BugCrusher\\Assets\\Scripts\\Fox\\FoxController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Fox\\FoxController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAD4v6EAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T08:22:37.637Z"
             },
             {
               "$type": "Document",
